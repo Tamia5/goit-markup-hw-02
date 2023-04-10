@@ -1,6 +1,8 @@
+:root
+
 body {
     font-family: Roboto, sans-serif;
-   color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 
 
@@ -15,7 +17,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.7;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
