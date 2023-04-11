@@ -92,7 +92,7 @@ body {
 }
 
 /* Second section list + header */
-.third-title {
+.sub-title {
     font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 20px;
@@ -153,4 +153,10 @@ body {
     letter-spacing: 0.04em;
     color: var(--portfolio-botton-text-color);
     background-color: var(--portfolio-button-background-color);
+    cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
