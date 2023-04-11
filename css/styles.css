@@ -3,7 +3,7 @@
     --main-text-color: #434455;
     --headers-color: #2E2F42;
     --logo-firstpart-color: #4D5AE5;
-    --cursor-color:#4D5AE5;
+    --cursor-color: #404bbf;
     /* Загальний шрифт */
     --logo-font-family: 'Raleway', sans-serif;
     --main-font-family: 'Roboto', sans-serif;
@@ -138,6 +138,6 @@ body {
     background-color: var(--footer-background-color);
     color: #F4F4FD;;
 }
-.logo-footer span {
+.footer span {
     color: #f4f4fd;
 }
