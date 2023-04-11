@@ -5,6 +5,7 @@
     --logo-firstpart-color: #4D5AE5;
     --cursor-color: #404bbf;
     --portfolio-botton-text-color: #4D5AE5;
+    --logo-footer-color: #f4f4fd;
     /* Загальний шрифт */
     --logo-font-family: 'Raleway', sans-serif;
     --main-font-family: 'Roboto', sans-serif;
@@ -35,8 +36,14 @@ body {
     letter-spacing: 0.03em;
     color: var(--logo-firstpart-color);
 }
-.logo span {
+.part-logo {
     color: var(--headers-color);
+    font-family: var(--logo-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .nav {
@@ -140,8 +147,8 @@ body {
     background-color: var(--footer-background-color);
     color: #F4F4FD;;
 }
-.footer span {
-    color: #f4f4fd;
+.light-part {
+    color: var(--logo-footer-color);
 }
 
 /* Portfolio */
