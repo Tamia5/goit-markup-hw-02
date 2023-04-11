@@ -1,53 +1,78 @@
-:root
-
-body {
-    font-family: Roboto, sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-
-
+:root {
+    /* Загальний колір всього тексту */
+    --main-text-color: #434455;
+    --headers-color: #2E2F42;
+    --logo-firstpart-color: #4D5AE5;
+    --cursor-color:#4D5AE5;
+    /* Загальний шрифт */
+    --logo-font-family: 'Raleway', sans-serif;
+    --main-font-family: 'Roboto', sans-serif;
+    /* Загальний колір фону */
+    --body-background-color: #FFFFFF;
+    --title-background-color: #2E2F42;
+    --footer-background-color: #2E2F42;
 }
 
-/* navigation menu */
+body {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    background-color: var(--body-background-color);
+}
+
 .link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.7;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    text-decoration: none;
-    color: #4d5ae5;
+    color: var(--logo-firstpart-color);
+}
+.logo span {
+    color: var(--headers-color);
 }
 
-.site-nav a {
+.nav {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-li {
-    list-style: none;
-}
-.contacts-nav {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--headers-color);
+}
+.nav:hover,
+.nav:focus {
+    color: var(--cursor-color);
+}
+.contacts {
     font-style: normal;
 }
-
-/* section 1 -  page title + button order */
+.contact-nav {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+.contact-nav:hover,
+.contact-nav:focus {
+    color: var(--cursor-color);
+}
+/* First section */
 .title {
-    background-color: #2E2F42;
+    background-color: var(--title-background-color);
 }
 .page-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1;
-    width: 496px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .button-order {
     color: #FFFFFF;
@@ -55,8 +80,13 @@ li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     cursor: pointer;
+    font-family: var(--main-font-family);
+}
+.button-order:hover,
+.button-order:focus {
+    background-color: #404BBF;
 }
 
 
