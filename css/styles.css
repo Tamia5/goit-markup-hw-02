@@ -28,7 +28,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: var(--logo-firstpart-color);
@@ -89,8 +89,8 @@ body {
     background-color: #404BBF;
 }
 
-/* Second section */
-.main-info h3 {
+/* Second section list + header */
+.third-title {
     font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 20px;
@@ -98,7 +98,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--headers-color);
 }
-.main-info p {
+.info {
     font-family: var(--main-font-family);
     font-weight: 400;
     font-size: 16px;
@@ -107,4 +107,37 @@ body {
     color: var(--main-text-color);
 }
 
-/* The third section */
+/* The third section header */
+.title-img {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headers-color);
+}
+
+/* The fourth section*/
+.team-card {
+    background-color: #F4F4FD;
+}
+.title-ourteam {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headers-color);
+}
+.card-content {
+    background-color: #FFFFFF;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--footer-background-color);
+    color: #F4F4FD;;
+}
+.logo-footer span {
+    color: #f4f4fd;
+}
