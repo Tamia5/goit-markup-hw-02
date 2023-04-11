@@ -4,6 +4,7 @@
     --headers-color: #2E2F42;
     --logo-firstpart-color: #4D5AE5;
     --cursor-color: #404bbf;
+    --portfolio-botton-text-color: #4D5AE5;
     /* Загальний шрифт */
     --logo-font-family: 'Raleway', sans-serif;
     --main-font-family: 'Roboto', sans-serif;
@@ -11,6 +12,7 @@
     --body-background-color: #FFFFFF;
     --title-background-color: #2E2F42;
     --footer-background-color: #2E2F42;
+    --portfolio-button-background-color: #F4F4FD;
 }
 
 body {
@@ -140,4 +142,15 @@ body {
 }
 .footer span {
     color: #f4f4fd;
+}
+
+/* Portfolio */
+.filter-button {
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--portfolio-botton-text-color);
+    background-color: var(--portfolio-button-background-color);
 }
