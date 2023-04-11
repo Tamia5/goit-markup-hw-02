@@ -18,7 +18,6 @@ body {
     color: var(--main-text-color);
     background-color: var(--body-background-color);
 }
-
 .link {
     text-decoration: none;
 }
@@ -62,6 +61,7 @@ body {
 .contact-nav:focus {
     color: var(--cursor-color);
 }
+
 /* First section */
 .title {
     background-color: var(--title-background-color);
@@ -89,43 +89,22 @@ body {
     background-color: #404BBF;
 }
 
-
-/* section 4 - our team  */
-.our-team {
-    background: #F4F4FD;
-}
-.info-team h3 {
+/* Second section */
+.main-info h3 {
+    font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-   
+    color: var(--headers-color);
 }
-.info-team p {
+.main-info p {
+    font-family: var(--main-font-family);
     font-weight: 400;
-    font-size: 16px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-
-/* Footer */
-.footer a {
-   color: #F4F4FD;
-   text-decoration: none;
-}
-.footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
-}
-
-
-/* Portfolio page - section of filter nav  */
-.filters-button button {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    cursor: pointer;
-    color: #4D5AE5;
-    border: 1px solid #E7E9FC;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
 }
+
+/* The third section */
